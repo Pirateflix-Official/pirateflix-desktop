@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<installer-gui-script minSpecVersion="1">
+    <title>pirateflix</title>
+    <organization>app.pirateflix</organization>
+    <domains enable_localSystem="true"/>
+    <options customize="never" require-scripts="true" rootVolumeOnly="true"/>
+    <background file="diagram.tiff" alignment="bottomleft" scaling="none"/>
+    <welcome file="welcome.html" mime-type="text/html"/>
+    <license file="license.txt"/>
+    <pkg-ref id="app.pirateflix.pkg.pirateflix" version="0.0.0"
+        auth="root">Build.pkg</pkg-ref>
+    <choices-outline>
+        <line choice="app.pirateflix.pkg.pirateflix"/>
+    </choices-outline>
+    <choice
+        id="app.pirateflix.pkg.pirateflix"
+        visible="true"
+        title="pirateflix"
+        description="pirateflix"
+        start_selected="true">
+      <pkg-ref id="app.pirateflix.pkg.pirateflix"/>
+    </choice>
+</installer-gui-script>
