@@ -12,6 +12,7 @@ If you are asking a question rather than filing a bug, try one of these instead:
 - Reddit /r/pirateflixApp (https://www.reddit.com/r/pirateflixApp/)
 - pirateflix Forum (https://discuss.pirateflix.app/)
 -->
+<!--  -->
 
 Operating System Version:
 
